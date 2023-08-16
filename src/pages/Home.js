@@ -1,8 +1,13 @@
 import React from 'react'
+import SearchForm from '../components/SearchForm'
+import CoacktailList from '../components/CoacktailList'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+        <SearchForm/>
+        <CoacktailList/>
+    </div>
   )
 }
 
