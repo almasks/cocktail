@@ -6,7 +6,7 @@ function SearchForm() {
     const serchValue= React.createRef('')
     useEffect(()=>{
       serchValue.current.focus()
-    },[])
+    },[serchValue])
     const handleserch=()=>{
       setSerchterm(serchValue.current.value)
     }
